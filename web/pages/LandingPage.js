@@ -14,6 +14,10 @@ const pageQuery = groq`
     ...,
     content[] {
       ...,
+      muxVideo {
+        ...,
+        asset->
+      },
       cta {
         ...,
         route->

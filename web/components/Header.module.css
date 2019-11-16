@@ -3,7 +3,7 @@
 
 .root {
   position: relative;
-  color: var(--color-black, #000);
+  color: var(--color-white, #000);
   display: flex;
   margin: 0 auto;
   max-width: var(--width-small);
@@ -19,11 +19,11 @@
   font-weight: inherit;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding: 1.5 em;
 
   @nest & > a {
     display: block;
-    padding: 1.5em;
+    padding: 0.5 em;
 
     @supports (padding-top: env(safe-area-inset-top)) {
       padding-left: calc(env(safe-area-inset-left) + 1.5rem);
@@ -63,7 +63,7 @@
   @media (--media-min-medium) {
     display: flex;
     justify-content: flex-end;
-    padding: 0 1rem;
+    padding: 0 rem;
   }
 
   @supports (padding-top: env(safe-area-inset-top)) {
@@ -108,7 +108,7 @@
         width: 100%;
         height: 1px;
         position: absolute;
-        bottom: 0.5rem;
+        bottom: 0.5 rem;
         left: 0;
         background-color: var(--color-white, #fff);
       }
