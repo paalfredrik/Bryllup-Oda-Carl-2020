@@ -4,8 +4,8 @@
 .root {
   composes: center from '../../styles/shared.module.css';
   position: relative;
-  background-color: var(--color-white, #000);
-  color: var(--color-white, #fff);
+  background-color: var(--color-black, #222);
+  color: var(--color-black, #222);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,11 +19,11 @@
 .root::before {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 0;
-  background-image: linear-gradient(#2220, #222e);
+  background-image: linear-gradient(transparent, #fff);
   width: 100%;
-  height: 50%;
+  height: 20%;
   z-index: 0;
 }
 
@@ -39,6 +39,7 @@
   position: relative;
   font-weight: 600;
   font-size: var(--font-title2-size);
+  font-family: var(--font-family-heading);
   line-height: var(--font-title2-line-height);
   text-shadow:none;
   margin: 0;
