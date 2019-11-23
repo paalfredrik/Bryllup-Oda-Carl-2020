@@ -8,11 +8,16 @@
   --font-family-heading: "Pinyon Script", -apple-system, BlinkMacSystemFont;
   --color-black: #202123;
   --color-dark-gray: #32373e;
-  --color-gray: #ffcccb;
+  --color-pioneer-pink: #ffcccb;
   --color-light-gray: #fed8b1;
   --color-very-light-gray: #e7ebed;
   --color-white: #fff;
-  --color-accent: #156dff;
+  --color-lilac: #e9e8e6;
+  --color-metallic-bronze: #534A3C;
+  --color-pastel-blue: #B0C9D2;
+  --color-cinder: #23292E;
+  --color-cavern-pink: #DFB3AE;
+  --color-porcelain: #DDDED9;
 
   /* Typography */
   --unit: 16;
