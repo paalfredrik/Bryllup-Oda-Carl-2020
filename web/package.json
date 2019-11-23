@@ -15,7 +15,9 @@
     "@sanity/client": "^0.144.0",
     "@sanity/image-url": "^0.140.15",
     "@zeit/next-css": "^1.0.1",
+    "get-youtube-id": "^1.0.1",
     "groq": "^0.140.0",
+    "hls.js": "^0.12.4",
     "lodash": "^4.17.11",
     "next": "^8.1.0",
     "next-seo": "^1.11.2",
@@ -23,7 +25,8 @@
     "react-dom": "^16.8.6",
     "react-inlinesvg": "^0.8.4",
     "react-mailchimp-form": "^1.0.1",
-    "react-mailchimp-subscribe": "^2.1.0"
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-youtube": "^7.9.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

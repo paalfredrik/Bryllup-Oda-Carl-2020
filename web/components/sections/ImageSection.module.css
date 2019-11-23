@@ -39,7 +39,7 @@
 
   @nest & figcaption {
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: none;
   }
 
   @media (--media-min-medium) {
@@ -56,7 +56,7 @@
 .caption {
   width: 100%;
   margin: 0 auto;
-  box-sizing: border-box;
+  box-sizing: none;
 
   @media (--media-min-medium) {
     max-width: calc(var(--width-small) - 3rem);

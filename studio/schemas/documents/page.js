@@ -23,6 +23,15 @@ export default {
         { type: 'imageSection' },
         { type: 'mailchimp' },
         { type: 'textSection' },
+        { 
+          name: 'muxSection',
+          type: 'object',
+          fields: [{
+            title: 'Mux Video',
+            name: 'muxVideo',
+            type: 'mux.video'
+          }]
+        }
       ],
     },
     {
