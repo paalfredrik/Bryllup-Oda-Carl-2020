@@ -10,6 +10,7 @@ function MuxSection (props) {
                 assetDocument={muxVideo.asset}
                 autoload={true}
                 autoplay={true}
+                muted={false}
             />
         </div>
     )
