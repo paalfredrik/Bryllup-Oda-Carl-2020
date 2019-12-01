@@ -20,7 +20,7 @@
   font-weight: inherit;
   background: var(--color-cinder);  
   text-transform: uppercase;
-  margin: 0;
+  margin: 0.5;
   padding: 1.5 em;
 
   @nest & > a {
@@ -33,7 +33,7 @@
   }
 
   @nest & img, & svg {
-    height: calc(var(--font-base-line-height) * 1.5rem);
+    height: calc(var(--font-base-line-height) * 2.5rem);
     width: auto;
     color: inherit;
     vertical-align: top;
