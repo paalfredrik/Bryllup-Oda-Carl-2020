@@ -9,7 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 
   @media (--media-min-medium) {
     padding-bottom: 4rem;
@@ -44,7 +44,7 @@
   text-shadow:none;
   margin: 0;
   padding: 0;
-  padding-top: 12.5rem;
+  padding-top: 14.5rem;
 
   @media (--media-min-medium) {
     font-size: var(--font-title1-size);
