@@ -20,7 +20,7 @@ export default {
       description: 'The main site url. Used to create canonical url',
     },
     {
-      name: 'frontpage',
+      name: 'Frontpage',
       type: 'reference',
       description: 'Choose page to be the frontpage',
       to: { type: 'page' },
