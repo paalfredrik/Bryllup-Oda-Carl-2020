@@ -49,12 +49,12 @@ class LandingPage extends Component {
       console.error('no query')
       return
     }
-    if (slug && slug !== '/Forside') {
+    if (slug && slug !== '/') {
       return client.fetch(pageQuery, {slug}).then(res => ({...res.page, slug}))
     }
 
     // Frontpage
-    if (slug && slug === '/forside') {
+    if (slug && slug === '/') {
       return client
         .fetch(
           groq`
