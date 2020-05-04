@@ -23,7 +23,7 @@
     "bcp47": "^1.1.2",
     "get-youtube-id": "^1.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
+    "react": "^16.9",
     "react-dom": "^16.8.6",
     "react-youtube": "^7.9.0",
     "sanity-plugin-dashboard-widget-document-list": "^0.0.8",

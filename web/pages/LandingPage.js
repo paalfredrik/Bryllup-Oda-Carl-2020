@@ -54,7 +54,7 @@ class LandingPage extends Component {
     }
 
     // Frontpage
-    if (slug && slug === '/Forside') {
+    if (slug && slug === '/forside') {
       return client
         .fetch(
           groq`

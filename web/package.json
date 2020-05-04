@@ -21,7 +21,7 @@
     "lodash": "^4.17.11",
     "next": "^8.1.0",
     "next-seo": "^1.11.2",
-    "react": "^16.8.6",
+    "react": "^16.13.1",
     "react-dom": "^16.8.6",
     "react-inlinesvg": "^0.8.4",
     "react-mailchimp-form": "^1.0.1",
